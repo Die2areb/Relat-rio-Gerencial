@@ -10,7 +10,28 @@ Este projeto em Python automatiza o envio de relatórios de vendas por e-mail no
 - **Envio de E-mail:** Envia automaticamente o relatório gerado para um endereço de e-mail especificado.
 
 ## Como Usar
+Preparação do Script Python
+Salvar o Script:
+Copie o código Python fornecido anteriormente e salve-o em um arquivo chamado envia_relatorio.py em um diretório de sua preferência. Por exemplo: C:\Scripts\envia_relatorio.py.
+Configuração do Agendador de Tarefas do Windows
+Abrir o Agendador de Tarefas:
 
+Pressione Win + R, digite taskschd.msc e pressione Enter.
+Criar uma Nova Tarefa Básica:
+
+No painel à direita, clique em "Criar Tarefa Básica".
+Dê um nome para a tarefa, como "Enviar Relatório de Vendas", e clique em "Avançar".
+Definir a Frequência:
+
+Selecione "Mensalmente" e clique em "Avançar".
+Configurar o Mês e o Dia:
+
+
+#### Nota Importante
+Certifique-se de que o Outlook esteja configurado corretamente e que você tenha permissão para enviar e-mails programaticamente usando o Outlook. O script depende do Outlook estar configurado na máquina onde ele está sendo executado.
+
+
+ 
 ### Pré-requisitos
 
 - Python 3.x
